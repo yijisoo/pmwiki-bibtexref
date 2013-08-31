@@ -1,1 +1,5 @@
 *~
+.phptidy-cache
+.svn/entries
+*.svn-base
+wp-phptidy.php
