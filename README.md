@@ -18,7 +18,7 @@ should have the following hierarchy:
 
 Then add
 
-  include 'cookbook/bibtexref/bibtexref2.php';
+  include 'cookbook/bibtexref/bibtexref3.php';
 
 to your config.php.
 
