@@ -83,6 +83,7 @@ Contributors
 * Michaël Hauspie (http://www.lifl.fr/~hauspie)
 * Yann Hodique (http://www.hodique.info/)
 * Romain Rouvoy (http://www.lifl.fr/~rouvoy)
+* Ji Soo Yi (https://github.com/yijisoo)
 
 Copyright
 =========
