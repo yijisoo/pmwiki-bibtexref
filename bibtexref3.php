@@ -20,7 +20,7 @@ See the COPYING file for more details. */
 
 
 $BibtexPdfLink = "Attach:pdf.gif";
-$BibtexUrlLink = "(URL)";
+$BibtexUrlLink = "URL";
 $BibtexBibLink = "BibTeX";
 
 $BibtexGenerateDefaultUrlField = false;
@@ -168,6 +168,11 @@ class BibtexEntry {
     $val = $this->values[$field];
     if ( $val == FALSE ) {
       $val = $this->values[strtolower( $field )];
+    }
+
+    if ( $val ) {
+      $val = str_replace( "{", "", $val );
+      $val = str_replace( "}", "", $val );
     }
     return trim( $val );
   }
